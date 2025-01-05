@@ -1,0 +1,2 @@
+# F# Mutable Variable Bug
+This example demonstrates an unexpected behavior that can occur when using mutable variables in F# functions. The `swap` function correctly swaps the values, but a naive attempt to generalize it (`swap2`) fails because of how F# handles value parameters.
